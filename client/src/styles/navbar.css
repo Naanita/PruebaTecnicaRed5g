@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  max-width: 1280px;
+  height: 72px;
+  padding: 10px;
+  /* UI Properties */
+  background: var(--white_-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 16px #D1E8FF74;
+  opacity: 1;
+}
+
+.navbar-logo {
+  display: flex;
+  width: 128px;
+  height: 48px;
+  margin: 12px 408px 12px 576px;
+
+}
+
+.navbar-logo svg {
+  width: 128px;
+  height: 48px;
+  background: transparent url(.././assets/Grupo\ 1.svg) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 1;
+}
+
+.navbar-logout {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 48px;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+.navbar-logout svg {
+  width: 24px;
+  height: 24px;
+  background: transparent url(.././assets/20941844951543238901.svg) 0% 0% no-repeat padding-box;
+}
+
+.navbar-txt {
+  font: normal normal bold 14px/19px Open Sans;
+  letter-spacing: 0px;
+  color: #31323F;
+  opacity: 1;
+  width: 96px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.log {
+  width: 24px;
+  height: 24px;
+  font: normal normal 300 24px/29px Font Awesome 6 Pro;
+  letter-spacing: 0px;
+  color: #31323F;
+  text-transform: uppercase;
+  opacity: 1;
+}
